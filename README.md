@@ -12,7 +12,8 @@ If they sign the NDA, they get to live, they get a one way plane ticket home fro
 
 //source: https://artofproblemsolving.com/blog/articles/the-math-of-game-shows // WWTBAM with a plot twist.
 
-## LOGO: https://bleedingcool.com/games/the-current-who-wants-to-be-a-millionaire-video-game-gets-a-new-dlc/
+LOGO:
+https://bleedingcool.com/games/the-current-who-wants-to-be-a-millionaire-video-game-gets-a-new-dlc/
 
 There would be 10 different categories for each round. Each question would have a set of (one) truth and (3) false values.
 
@@ -29,5 +30,11 @@ If they decide to break the agreement of the NDA, then a family member would be 
 Ideally there would be a numerous bank of questions and answers.
 
 the css for the game would look similar to WWTBAM game design.
-Reference: https://m.imdb.com/title/tt0166064/mediaviewer/rm2938470657
+Reference:
+https://m.imdb.com/title/tt0166064/mediaviewer/rm2938470657
 I think I would want to change the color scheme though! inverted colors. red and black.
+
+Background design:
+https://www.figma.com/file/9UJBUCm3chgZ9ywUbtfAPQ/WWTBAM?node-id=1%3A5&t=Zv5tQsQc3AoeVOjp-0
+
+<!-- store questions and answers in an array!  -->
