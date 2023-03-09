@@ -31,20 +31,24 @@ body{
   background-color: rgb(18, 18, 169);
 }
 
-/* #question-container{
-  padding: 0;
-  margin: 0;
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-} */
+body.correct {
+  background-color: rgb(2, 147, 2);
+}
+
+body.wrong {
+  background-color: rgb(86, 10, 10);
+}
 
 #question{
   font-size: 3.9rem;
-  color: black;
+  background-color: rgb(29, 29, 201);
+  color: white;
   margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
 }
 
 .btn{
@@ -69,4 +73,21 @@ body{
   max-width: 80%;
   background-color: white;
   border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+.start-btn, .next-btn {
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
 }
