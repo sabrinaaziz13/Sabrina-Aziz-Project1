@@ -71,7 +71,6 @@ function setStatusClass(element, correct) {
     element.classList.add('wrong')
   }
 }
-//might want to adjust this for me. make it simple.
 
 function clearStatusClass(element) {
   element.classList.remove('correct')
@@ -126,9 +125,9 @@ const questions = [
   {
     question: 'What is the sq rt of 144?',
     answers: [
-      { text: '• B: 14', correct: false },
-      { text: '• C: 144', correct: false },
-      { text: '• A: 12', correct: true },
+      { text: '• A: 14', correct: false },
+      { text: '• B: 144', correct: false },
+      { text: '• C: 12', correct: true },
       { text: '• D: 1', correct: false }
     ]
   },
@@ -182,9 +181,9 @@ const questions = [
     question:
       'Which of the following shows did NOT air on Cartoon Network in the 90s?',
     answers: [
-      { text: '• B: Powerpuff Girls', correct: false },
-      { text: '• C: Johnny Bravo', correct: false },
-      { text: '• A: Dragon Ball Z', correct: true },
+      { text: '• A: Powerpuff Girls', correct: false },
+      { text: '• B: Johnny Bravo', correct: false },
+      { text: '• C: Dragon Ball Z', correct: true },
       { text: '• D: Ed, Edd n Eddy', correct: false }
     ]
   },
@@ -200,8 +199,8 @@ const questions = [
   {
     question: 'By what age do babies generally start cooing?',
     answers: [
-      { text: '• B: 7 weeks', correct: false },
-      { text: '• A: 2 months', correct: true },
+      { text: '• A: 7 weeks', correct: false },
+      { text: '• B: 2 months', correct: true },
       { text: '• C: 3 months', correct: false },
       { text: '• D: 3 weeks', correct: false }
     ]
