@@ -37,6 +37,8 @@ body{
 
 body.correct {
   background-color: rgb(2, 147, 2);
+  background-image: url(https://ca-times.brightspotcdn.com/dims4/default/926dc1f/2147483647/strip/true/crop/6500x3413+0+576/resize/1200x630!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F69%2F42%2Fa9b2b3db43e58426f0002322f65c%2Fla-tr-travel-flyguy-20191222-04.jpg);
+  background-repeat: no-repeat;
 }
 
 body.wrong {
