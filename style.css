@@ -41,6 +41,11 @@ body.correct {
 
 body.wrong {
   background-color: rgb(86, 10, 10);
+/* background-image: url(https://www.seekpng.com/png/detail/389-3899153_pig-roast-pig-roasting-over-fire.png); */
+background-image: url(https://img.particlenews.com/image.php?type=thumbnail_580x000&url=03lbmI_0jLcFbxV00);
+background-repeat: no-repeat;
+/* background-position: center; */
+/* center img blocked. work on this. */
 }
 
 #question{
